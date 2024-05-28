@@ -206,7 +206,7 @@
   "Subtle color is used to suggest a physical area on the screen."
   :type 'color :group 'nano-theme-light)
 
-(defcustom nano-light-faded "#90A4AE" ;; Blue Grey / L300
+(defcustom nano-light-faded "#7A8B94" ;; Blue Grey / L300
   "Faded face is for information that are less important."
   :type 'color :group 'nano-theme-light)
 
