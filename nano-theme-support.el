@@ -761,6 +761,7 @@ background color that is barely perceptible."
    '(nobreak-hyphen                ((t (:inherit nano-popout))))
    '(nobreak-space                 ((t (:inherit nano-popout))))
    '(help-argument-name            ((t (:inherit nano-faded))))
+   '(help-key-binding              ((t (:inherit (nano-strong nano-subtle)))))
    '(tabulated-list-fake-header    ((t (:inherit nano-strong))))
    '(tool-bar                      ((t (:inherit nano-faded-i))))
 
