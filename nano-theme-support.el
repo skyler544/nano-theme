@@ -887,6 +887,7 @@ background color that is barely perceptible."
 
    ;; --- Info ---------------------------------------------------------
    '(info-node                      ((t (:inherit nano-strong))))
+   '(info-menu-star                 ((t (:inherit nano-default))))
    '(info-menu-header               ((t (:inherit nano-strong))))
    '(info-header-node               ((t (:inherit nano-default))))
    '(info-index-match               ((t (:inherit nano-salient))))
