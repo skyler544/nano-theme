@@ -585,8 +585,8 @@ background color that is barely perceptible."
         (custom-theme-set-faces theme
          `(default ((,light (:foreground ,nano-light-foreground))
                     (,dark  (:foreground ,nano-dark-foreground))))
-         `(nano-strong ((,light (:weight bold :foreground ,nano-light-strong))
-                        (,dark  (:weight bold :foreground ,nano-dark-strong))))))
+         `(nano-strong ((,light (:weight bold))
+                        (,dark  (:weight bold))))))
 
     ;; --- Window divider ----------------------------------------------
     (if nano-window-divider-show
