@@ -748,7 +748,7 @@ background color that is barely perceptible."
    '(minibuffer-prompt             ((t (:inherit nano-strong))))
    '(isearch                       ((t (:inherit nano-strong))))
    '(isearch-fail                  ((t (:inherit nano-faded))))
-   '(show-paren-match              ((t (:inherit nano-strong))))
+   '(show-paren-match              ((t (:inherit (nano-subtle nano-strong)))))
    '(show-paren-mismatch           ((t (:inherit nano-critical))))
    '(lazy-highlight                ((t (:inherit nano-subtle))))
    '(trailing-whitespace           ((t (:inherit nano-subtle))))
