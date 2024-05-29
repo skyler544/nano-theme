@@ -901,6 +901,12 @@ background color that is barely perceptible."
    ;; --- Helpful ------------------------------------------------------
    '(helpful-heading                ((t (:inherit nano-strong))))
 
+   ;; --- Eros ---------------------------------------------------------
+   '(eros-result-overlay-face       ((t (:inherit (nano-strong nano-subtle)))))
+
+   ;; --- Iedit --------------------------------------------------------
+   '(iedit-occurrence               ((t (:inherit nano-subtle))))
+
    ;; --- Nano modeline ------------------------------------------------
 ;;   '(nano-modeline-active               ((t (:inherit nano-subtle))))
    '(nano-modeline-active-name          ((t (:inherit (nano-strong nano-modeline-active)))))
